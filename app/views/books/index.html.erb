@@ -1,4 +1,3 @@
-<% @books.each do |book| %>
 <div>
   <%= link_to book_path(book.id) do %>
   <% end %>
@@ -6,6 +5,9 @@
   <p>Opinion：<%= book.body %></p>
 </div>
 <% end %>
+
+<table class="table table-striped">
+<h1>Bootstrapをいれるお</h1>
 
 <h1>Books</h1>
 <table>
@@ -18,3 +20,4 @@
   </thead>
 
   <tbody>
+</table>
